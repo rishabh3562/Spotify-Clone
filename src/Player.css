@@ -1,0 +1,14 @@
+.player_body {
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+/* .player {
+  display: flex;
+  flex-direction: row;
+}
+
+.player__body {
+  display: flex;
+  flex-grow: 1;
+} */
