@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import './App.css';
 import SpotifyWebApi from "spotify-web-api-js";
-import Login from './Login';
-import { getTokenFromResponse } from './spotify'
+import Login from './Components/Login';
+import { getTokenFromResponse } from './Components/spotify'
 // import { Simulate } from 'react-dom/test-utils';
-import Player from './Player';
-import { useStateValue } from './StateProvider'
+import Player from './Components/Player';
+import { useStateValue } from './Components/StateProvider'
 
 
 

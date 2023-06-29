@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-import { StateProvider } from "./StateProvider";
+import { StateProvider } from "./Components/StateProvider";
 //importing reducer and intialState from reducer.js 
-import reducer, { initialState } from "./reducer";
+import reducer, { initialState } from "./Components/reducer";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
